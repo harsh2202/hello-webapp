@@ -36,7 +36,7 @@ def update():
 @app.route('/')
 def root():
     update()
-    return "Hello World! (up %s)\n" % elapsed()
+    return "This is an Python App! (up %s)\n" % elapsed()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
